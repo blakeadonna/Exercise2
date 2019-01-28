@@ -8,7 +8,8 @@ public class Main {
 
         for (int i=0; i<temp.length; i++){
             if (temp[i] <= 32 && precipitation[i] > 50){
-                System.out.println("It's going to snow");
+
+                System.out.println("It's going to snow " + temp[i] +"F " + precipitation[i] + "%");
             }
         }
 
